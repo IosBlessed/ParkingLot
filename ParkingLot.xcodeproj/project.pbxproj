@@ -1,0 +1,1461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19283F832A56C60700F47A0C /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19283F822A56C60700F47A0C /* DatePickerViewController.swift */; };
+		1955F9F72A5ED90F00804E87 /* EditParkingLotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955F9F32A5ED90F00804E87 /* EditParkingLotViewController.swift */; };
+		1955F9F82A5ED90F00804E87 /* EditParkingLotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1955F9F42A5ED90F00804E87 /* EditParkingLotViewController.xib */; };
+		1955F9F92A5ED90F00804E87 /* EditParkingLotBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955F9F62A5ED90F00804E87 /* EditParkingLotBuilder.swift */; };
+		1955F9FE2A5EE5E400804E87 /* CreateParkingLotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955F9FD2A5EE5E400804E87 /* CreateParkingLotService.swift */; };
+		1955FA012A60469B00804E87 /* ParkingLotListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955FA002A60469B00804E87 /* ParkingLotListViewModel.swift */; };
+		1955FA042A60470100804E87 /* ParkingLotListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955FA032A60470100804E87 /* ParkingLotListViewModelProtocol.swift */; };
+		197260842A3B08A300015AC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972607C2A3B08A300015AC0 /* Constants.swift */; };
+		197260852A3B08A300015AC0 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972607E2A3B08A300015AC0 /* TextFieldModel.swift */; };
+		197260862A3B08A300015AC0 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197260802A3B08A300015AC0 /* TextFieldView.swift */; };
+		197260872A3B08A300015AC0 /* TextFieldsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197260812A3B08A300015AC0 /* TextFieldsStackView.swift */; };
+		197260882A3B08A300015AC0 /* TextFieldsStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 197260822A3B08A300015AC0 /* TextFieldsStackView.xib */; };
+		197260892A3B08A300015AC0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197260832A3B08A300015AC0 /* CustomTextField.swift */; };
+		197F8C522A3867EB006C6434 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F8C512A3867EB006C6434 /* UIImage.swift */; };
+		197F8C692A3870E5006C6434 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 197F8C5B2A386FC6006C6434 /* Mulish-Regular.ttf */; };
+		197F8C6C2A3875EC006C6434 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 197F8C6B2A3875EC006C6434 /* gif.gif */; };
+		197F8C6D2A3878C5006C6434 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 197F8C5E2A386FC6006C6434 /* Mulish-Black.ttf */; };
+		1995CC032A5537FC004FACBC /* CreateNewParkingLotViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995CC002A5537FC004FACBC /* CreateNewParkingLotViewModelProtocol.swift */; };
+		1995CC042A5537FC004FACBC /* CreateNewParkingLotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995CC012A5537FC004FACBC /* CreateNewParkingLotViewModel.swift */; };
+		1995CC052A5537FC004FACBC /* ParkingLotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995CC022A5537FC004FACBC /* ParkingLotModel.swift */; };
+		1995CC0A2A553B84004FACBC /* ParkingLotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995CC082A553B84004FACBC /* ParkingLotListViewController.swift */; };
+		1995CC0E2A553D9F004FACBC /* ParkingLotListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995CC0D2A553D9F004FACBC /* ParkingLotListBuilder.swift */; };
+		1995CC112A553EB4004FACBC /* ParkingLotCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995CC102A553EB4004FACBC /* ParkingLotCoordinator.swift */; };
+		1995CC152A553F26004FACBC /* ParkingLotCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995CC142A553F26004FACBC /* ParkingLotCoordinatorProtocol.swift */; };
+		19D1CF862A41AE0B00CD6AC3 /* UITapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1CF852A41AE0B00CD6AC3 /* UITapGestureRecognizer.swift */; };
+		19D1CF892A41B70600CD6AC3 /* KeyboardRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1CF882A41B70600CD6AC3 /* KeyboardRelatedView.swift */; };
+		371A253C2A4472EA00F3EAB1 /* Extension+NSRegularExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371A253B2A4472EA00F3EAB1 /* Extension+NSRegularExpression.swift */; };
+		371A253F2A44781F00F3EAB1 /* CustomSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371A253E2A44781F00F3EAB1 /* CustomSystemColors.swift */; };
+		372EE5162A5D7E76002587F3 /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EE5152A5D7E76002587F3 /* ForgotPasswordService.swift */; };
+		373348342A5FE82A0032F3A2 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373348332A5FE82A0032F3A2 /* ErrorHandler.swift */; };
+		3755C17B2A66C38A00593FEC /* ParkingLotListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755C17A2A66C38A00593FEC /* ParkingLotListService.swift */; };
+		3755C17E2A66C3A800593FEC /* ParkingLotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755C17C2A66C3A800593FEC /* ParkingLotTableViewCell.swift */; };
+		3755C17F2A66C3A800593FEC /* ParkingLotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3755C17D2A66C3A800593FEC /* ParkingLotTableViewCell.xib */; };
+		375605EB2A3867AF0016F2D1 /* parkingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 375605EA2A3867AF0016F2D1 /* parkingIcon.png */; };
+		3758B3762A594E660039632F /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B33D2A594E660039632F /* NetworkAPI.swift */; };
+		3758B3772A594E660039632F /* NetworkAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B33F2A594E660039632F /* NetworkAPIProtocol.swift */; };
+		3758B3792A594E660039632F /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3462A594E660039632F /* ForgotPasswordViewModel.swift */; };
+		3758B37A2A594E660039632F /* ForgotPasswordViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3482A594E660039632F /* ForgotPasswordViewModelProtocol.swift */; };
+		3758B37B2A594E660039632F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B34A2A594E660039632F /* ForgotPasswordViewController.swift */; };
+		3758B37C2A594E660039632F /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3758B34B2A594E660039632F /* ForgotPasswordViewController.xib */; };
+		3758B37D2A594E660039632F /* ForgotPasswordBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B34D2A594E660039632F /* ForgotPasswordBuilder.swift */; };
+		3758B37E2A594E660039632F /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3502A594E660039632F /* CreateAccountViewModel.swift */; };
+		3758B37F2A594E660039632F /* CreateAccountViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3522A594E660039632F /* CreateAccountViewModelProtocol.swift */; };
+		3758B3802A594E660039632F /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3758B3542A594E660039632F /* CreateAccountViewController.xib */; };
+		3758B3812A594E660039632F /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3552A594E660039632F /* CreateAccountViewController.swift */; };
+		3758B3822A594E660039632F /* CreateAccountViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3572A594E660039632F /* CreateAccountViewControllerProtocol.swift */; };
+		3758B3832A594E660039632F /* CreateAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3592A594E660039632F /* CreateAccountService.swift */; };
+		3758B3842A594E660039632F /* CreateAccountBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B35B2A594E660039632F /* CreateAccountBuilder.swift */; };
+		3758B3852A594E660039632F /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B35E2A594E660039632F /* AuthenticationCoordinator.swift */; };
+		3758B3862A594E660039632F /* AuthenticationCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3602A594E660039632F /* AuthenticationCoordinatorProtocol.swift */; };
+		3758B3872A594E660039632F /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3758B3622A594E660039632F /* AuthenticationViewController.xib */; };
+		3758B3882A594E660039632F /* AuthenticationViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3642A594E660039632F /* AuthenticationViewControllerProtocol.swift */; };
+		3758B3892A594E660039632F /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3652A594E660039632F /* AuthenticationViewController.swift */; };
+		3758B38A2A594E660039632F /* AuthenticationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3672A594E660039632F /* AuthenticationBuilder.swift */; };
+		3758B38B2A594E660039632F /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B36A2A594E660039632F /* SignInViewModel.swift */; };
+		3758B38C2A594E660039632F /* SignInViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B36C2A594E660039632F /* SignInViewModelProtocol.swift */; };
+		3758B38D2A594E660039632F /* SigninViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3758B36E2A594E660039632F /* SigninViewController.xib */; };
+		3758B38E2A594E660039632F /* SigninViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3702A594E660039632F /* SigninViewControllerProtocol.swift */; };
+		3758B38F2A594E660039632F /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3712A594E660039632F /* SigninViewController.swift */; };
+		3758B3902A594E660039632F /* SignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3732A594E660039632F /* SignInService.swift */; };
+		3758B3912A594E660039632F /* SigninBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3752A594E660039632F /* SigninBuilder.swift */; };
+		3758B3942A594EA10039632F /* CustomTextFieldProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B3932A594EA10039632F /* CustomTextFieldProtocol.swift */; };
+		3758B39B2A5CA0560039632F /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3758B39A2A5CA0560039632F /* ActivityIndicatorViewController.swift */; };
+		3763A7DC2A38554D004F43D5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763A7DB2A38554D004F43D5 /* MainCoordinator.swift */; };
+		3763A7DE2A385558004F43D5 /* MainCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763A7DD2A385558004F43D5 /* MainCoordinatorProtocol.swift */; };
+		3770A0EA2A5DBA0C0066DA2A /* RestorePasswordDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3770A0E92A5DBA0C0066DA2A /* RestorePasswordDTO.swift */; };
+		3770A0EC2A5DBAB60066DA2A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3770A0EB2A5DBAB60066DA2A /* UserModel.swift */; };
+		37718CD02A6E5C1A006246BE /* EditParkingLotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37718CCD2A6E5C1A006246BE /* EditParkingLotService.swift */; };
+		37718CD12A6E5C1A006246BE /* EditParkingLotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37718CCF2A6E5C1A006246BE /* EditParkingLotViewModel.swift */; };
+		37718CDC2A6E5C89006246BE /* ParkingSpotsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37718CD42A6E5C89006246BE /* ParkingSpotsViewModel.swift */; };
+		37718CDD2A6E5C89006246BE /* ParkingSpotsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37718CD62A6E5C89006246BE /* ParkingSpotsService.swift */; };
+		37718CDE2A6E5C89006246BE /* ParkingSpotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37718CD82A6E5C89006246BE /* ParkingSpotsViewController.swift */; };
+		37718CDF2A6E5C89006246BE /* ParkingSpotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37718CD92A6E5C89006246BE /* ParkingSpotCollectionViewCell.swift */; };
+		37718CE02A6E5C89006246BE /* ParkingSpotsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37718CDB2A6E5C89006246BE /* ParkingSpotsBuilder.swift */; };
+		377CE5022A67F3D300DF311A /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CE5012A67F3D300DF311A /* KeychainService.swift */; };
+		377CE5152A691C2900DF311A /* stopCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 377CE5142A691C2900DF311A /* stopCircle.png */; };
+		377CE5202A69236300DF311A /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377CE5192A69236300DF311A /* SettingsTableViewCell.xib */; };
+		377CE5212A69236300DF311A /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CE51A2A69236300DF311A /* SettingsTableViewCell.swift */; };
+		377CE5222A69236300DF311A /* SettingsViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CE51C2A69236300DF311A /* SettingsViewControllerProtocol.swift */; };
+		377CE5232A69236300DF311A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CE51D2A69236300DF311A /* SettingsViewController.swift */; };
+		377CE5242A69236300DF311A /* SettingsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CE51F2A69236300DF311A /* SettingsBuilder.swift */; };
+		37B810E92A47196700766971 /* TermsAndConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B810E82A47196700766971 /* TermsAndConditions.swift */; };
+		37B810EB2A4857A800766971 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B810EA2A4857A800766971 /* CustomButton.swift */; };
+		37B810F02A48AE3100766971 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B810EF2A48AE3100766971 /* Extension+UIButton.swift */; };
+		37B810FC2A4977BF00766971 /* TextFieldsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B810FB2A4977BF00766971 /* TextFieldsViewModel.swift */; };
+		37B811002A497A7100766971 /* TextFieldsStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B810FF2A497A7100766971 /* TextFieldsStackViewBuilder.swift */; };
+		37B811032A497BE000766971 /* TextFieldsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B811022A497BE000766971 /* TextFieldsViewModelProtocol.swift */; };
+		37B811052A4B7D7500766971 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B811042A4B7D7500766971 /* Extension+UIViewController.swift */; };
+		37C0F9082A695A56006E0A3D /* searchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C0F9022A695A56006E0A3D /* searchIcon.png */; };
+		37C0F9092A695A56006E0A3D /* scanIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C0F9032A695A56006E0A3D /* scanIcon.png */; };
+		37C0F90A2A695A56006E0A3D /* settingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C0F9042A695A56006E0A3D /* settingsIcon.png */; };
+		37C0F90B2A695A56006E0A3D /* exitIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C0F9052A695A56006E0A3D /* exitIcon.png */; };
+		37C0F90C2A695A56006E0A3D /* binIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C0F9062A695A56006E0A3D /* binIcon.png */; };
+		37C0F90D2A695A56006E0A3D /* plusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C0F9072A695A56006E0A3D /* plusIcon.png */; };
+		99ED8A772A52BC2400D43754 /* CreateParkingLotBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED8A762A52BC2400D43754 /* CreateParkingLotBuilder.swift */; };
+		99ED8A7A2A52BC3D00D43754 /* CreateParkingLotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED8A782A52BC3D00D43754 /* CreateParkingLotViewController.swift */; };
+		99ED8A7B2A52BC3D00D43754 /* CreateParkingLotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99ED8A792A52BC3D00D43754 /* CreateParkingLotViewController.xib */; };
+		99ED8A7E2A52BC8D00D43754 /* CreateParkingLotViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED8A7D2A52BC8D00D43754 /* CreateParkingLotViewControllerProtocol.swift */; };
+		99ED8A812A52BF2900D43754 /* CheckBoxStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED8A802A52BF2900D43754 /* CheckBoxStackView.swift */; };
+		99ED8A832A52BF4400D43754 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED8A822A52BF4400D43754 /* CheckBoxButton.swift */; };
+		99ED8A862A52F83B00D43754 /* ParkingLevelSectionStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED8A852A52F83B00D43754 /* ParkingLevelSectionStackView.swift */; };
+		A3C2CE342A2F4B6C0032DBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C2CE332A2F4B6C0032DBCC /* AppDelegate.swift */; };
+		A3C2CE362A2F4B6C0032DBCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C2CE352A2F4B6C0032DBCC /* SceneDelegate.swift */; };
+		A3C2CE3D2A2F4B6D0032DBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C2CE3C2A2F4B6D0032DBCC /* Assets.xcassets */; };
+		A3C2CE402A2F4B6D0032DBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C2CE3E2A2F4B6D0032DBCC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19283F822A56C60700F47A0C /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		1955F9F32A5ED90F00804E87 /* EditParkingLotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditParkingLotViewController.swift; sourceTree = "<group>"; };
+		1955F9F42A5ED90F00804E87 /* EditParkingLotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditParkingLotViewController.xib; sourceTree = "<group>"; };
+		1955F9F62A5ED90F00804E87 /* EditParkingLotBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditParkingLotBuilder.swift; sourceTree = "<group>"; };
+		1955F9FD2A5EE5E400804E87 /* CreateParkingLotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateParkingLotService.swift; sourceTree = "<group>"; };
+		1955FA002A60469B00804E87 /* ParkingLotListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotListViewModel.swift; sourceTree = "<group>"; };
+		1955FA032A60470100804E87 /* ParkingLotListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotListViewModelProtocol.swift; sourceTree = "<group>"; };
+		1972607C2A3B08A300015AC0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1972607E2A3B08A300015AC0 /* TextFieldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		197260802A3B08A300015AC0 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		197260812A3B08A300015AC0 /* TextFieldsStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsStackView.swift; sourceTree = "<group>"; };
+		197260822A3B08A300015AC0 /* TextFieldsStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldsStackView.xib; sourceTree = "<group>"; };
+		197260832A3B08A300015AC0 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		197F8C512A3867EB006C6434 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		197F8C572A386FC5006C6434 /* Mulish-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-BlackItalic.ttf"; sourceTree = "<group>"; };
+		197F8C582A386FC5006C6434 /* Mulish-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		197F8C592A386FC5006C6434 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Medium.ttf"; sourceTree = "<group>"; };
+		197F8C5A2A386FC5006C6434 /* Mulish-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-LightItalic.ttf"; sourceTree = "<group>"; };
+		197F8C5B2A386FC6006C6434 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		197F8C5C2A386FC6006C6434 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		197F8C5D2A386FC6006C6434 /* Mulish-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-BoldItalic.ttf"; sourceTree = "<group>"; };
+		197F8C5E2A386FC6006C6434 /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
+		197F8C5F2A386FC6006C6434 /* Mulish-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-MediumItalic.ttf"; sourceTree = "<group>"; };
+		197F8C602A386FC6006C6434 /* Mulish-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Light.ttf"; sourceTree = "<group>"; };
+		197F8C612A386FC6006C6434 /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
+		197F8C622A386FC6006C6434 /* Mulish-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		197F8C632A386FC7006C6434 /* Mulish-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		197F8C642A386FC7006C6434 /* Mulish-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraLight.ttf"; sourceTree = "<group>"; };
+		197F8C652A386FC7006C6434 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		197F8C662A386FC7006C6434 /* Mulish-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Italic.ttf"; sourceTree = "<group>"; };
+		197F8C6B2A3875EC006C6434 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		1995CC002A5537FC004FACBC /* CreateNewParkingLotViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewParkingLotViewModelProtocol.swift; sourceTree = "<group>"; };
+		1995CC012A5537FC004FACBC /* CreateNewParkingLotViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewParkingLotViewModel.swift; sourceTree = "<group>"; };
+		1995CC022A5537FC004FACBC /* ParkingLotModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingLotModel.swift; sourceTree = "<group>"; };
+		1995CC082A553B84004FACBC /* ParkingLotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotListViewController.swift; sourceTree = "<group>"; };
+		1995CC0D2A553D9F004FACBC /* ParkingLotListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotListBuilder.swift; sourceTree = "<group>"; };
+		1995CC102A553EB4004FACBC /* ParkingLotCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotCoordinator.swift; sourceTree = "<group>"; };
+		1995CC142A553F26004FACBC /* ParkingLotCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		19D1CF852A41AE0B00CD6AC3 /* UITapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITapGestureRecognizer.swift; sourceTree = "<group>"; };
+		19D1CF882A41B70600CD6AC3 /* KeyboardRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRelatedView.swift; sourceTree = "<group>"; };
+		371A253B2A4472EA00F3EAB1 /* Extension+NSRegularExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSRegularExpression.swift"; sourceTree = "<group>"; };
+		371A253E2A44781F00F3EAB1 /* CustomSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSystemColors.swift; sourceTree = "<group>"; };
+		372EE5152A5D7E76002587F3 /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
+		373348332A5FE82A0032F3A2 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		3755C17A2A66C38A00593FEC /* ParkingLotListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingLotListService.swift; sourceTree = "<group>"; };
+		3755C17C2A66C3A800593FEC /* ParkingLotTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingLotTableViewCell.swift; sourceTree = "<group>"; };
+		3755C17D2A66C3A800593FEC /* ParkingLotTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParkingLotTableViewCell.xib; sourceTree = "<group>"; };
+		375605EA2A3867AF0016F2D1 /* parkingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parkingIcon.png; sourceTree = "<group>"; };
+		3758B33D2A594E660039632F /* NetworkAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		3758B33F2A594E660039632F /* NetworkAPIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPIProtocol.swift; sourceTree = "<group>"; };
+		3758B3462A594E660039632F /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		3758B3482A594E660039632F /* ForgotPasswordViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModelProtocol.swift; sourceTree = "<group>"; };
+		3758B34A2A594E660039632F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		3758B34B2A594E660039632F /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		3758B34D2A594E660039632F /* ForgotPasswordBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordBuilder.swift; sourceTree = "<group>"; };
+		3758B3502A594E660039632F /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		3758B3522A594E660039632F /* CreateAccountViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModelProtocol.swift; sourceTree = "<group>"; };
+		3758B3542A594E660039632F /* CreateAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
+		3758B3552A594E660039632F /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		3758B3572A594E660039632F /* CreateAccountViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewControllerProtocol.swift; sourceTree = "<group>"; };
+		3758B3592A594E660039632F /* CreateAccountService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountService.swift; sourceTree = "<group>"; };
+		3758B35B2A594E660039632F /* CreateAccountBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountBuilder.swift; sourceTree = "<group>"; };
+		3758B35E2A594E660039632F /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		3758B3602A594E660039632F /* AuthenticationCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		3758B3622A594E660039632F /* AuthenticationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
+		3758B3642A594E660039632F /* AuthenticationViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewControllerProtocol.swift; sourceTree = "<group>"; };
+		3758B3652A594E660039632F /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		3758B3672A594E660039632F /* AuthenticationBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationBuilder.swift; sourceTree = "<group>"; };
+		3758B36A2A594E660039632F /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		3758B36C2A594E660039632F /* SignInViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModelProtocol.swift; sourceTree = "<group>"; };
+		3758B36E2A594E660039632F /* SigninViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SigninViewController.xib; sourceTree = "<group>"; };
+		3758B3702A594E660039632F /* SigninViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewControllerProtocol.swift; sourceTree = "<group>"; };
+		3758B3712A594E660039632F /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		3758B3732A594E660039632F /* SignInService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInService.swift; sourceTree = "<group>"; };
+		3758B3752A594E660039632F /* SigninBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninBuilder.swift; sourceTree = "<group>"; };
+		3758B3932A594EA10039632F /* CustomTextFieldProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFieldProtocol.swift; sourceTree = "<group>"; };
+		3758B39A2A5CA0560039632F /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		3763A7DB2A38554D004F43D5 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		3763A7DD2A385558004F43D5 /* MainCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		3770A0E92A5DBA0C0066DA2A /* RestorePasswordDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorePasswordDTO.swift; sourceTree = "<group>"; };
+		3770A0EB2A5DBAB60066DA2A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		37718CCD2A6E5C1A006246BE /* EditParkingLotService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditParkingLotService.swift; sourceTree = "<group>"; };
+		37718CCF2A6E5C1A006246BE /* EditParkingLotViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditParkingLotViewModel.swift; sourceTree = "<group>"; };
+		37718CD42A6E5C89006246BE /* ParkingSpotsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotsViewModel.swift; sourceTree = "<group>"; };
+		37718CD62A6E5C89006246BE /* ParkingSpotsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotsService.swift; sourceTree = "<group>"; };
+		37718CD82A6E5C89006246BE /* ParkingSpotsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotsViewController.swift; sourceTree = "<group>"; };
+		37718CD92A6E5C89006246BE /* ParkingSpotCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotCollectionViewCell.swift; sourceTree = "<group>"; };
+		37718CDB2A6E5C89006246BE /* ParkingSpotsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotsBuilder.swift; sourceTree = "<group>"; };
+		377CE5012A67F3D300DF311A /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		377CE5142A691C2900DF311A /* stopCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stopCircle.png; path = ParkingLot/Resources/images/stopCircle.png; sourceTree = SOURCE_ROOT; };
+		377CE5192A69236300DF311A /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		377CE51A2A69236300DF311A /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		377CE51C2A69236300DF311A /* SettingsViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewControllerProtocol.swift; sourceTree = "<group>"; };
+		377CE51D2A69236300DF311A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		377CE51F2A69236300DF311A /* SettingsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsBuilder.swift; sourceTree = "<group>"; };
+		37B810E82A47196700766971 /* TermsAndConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditions.swift; sourceTree = "<group>"; };
+		37B810EA2A4857A800766971 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		37B810EF2A48AE3100766971 /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		37B810FB2A4977BF00766971 /* TextFieldsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsViewModel.swift; sourceTree = "<group>"; };
+		37B810FF2A497A7100766971 /* TextFieldsStackViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsStackViewBuilder.swift; sourceTree = "<group>"; };
+		37B811022A497BE000766971 /* TextFieldsViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsViewModelProtocol.swift; sourceTree = "<group>"; };
+		37B811042A4B7D7500766971 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		37C0F9022A695A56006E0A3D /* searchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = searchIcon.png; path = ParkingLot/Resources/images/searchIcon.png; sourceTree = SOURCE_ROOT; };
+		37C0F9032A695A56006E0A3D /* scanIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scanIcon.png; path = ParkingLot/Resources/images/scanIcon.png; sourceTree = SOURCE_ROOT; };
+		37C0F9042A695A56006E0A3D /* settingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settingsIcon.png; path = ParkingLot/Resources/images/settingsIcon.png; sourceTree = SOURCE_ROOT; };
+		37C0F9052A695A56006E0A3D /* exitIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exitIcon.png; path = ParkingLot/Resources/images/exitIcon.png; sourceTree = SOURCE_ROOT; };
+		37C0F9062A695A56006E0A3D /* binIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = binIcon.png; path = ParkingLot/Resources/images/binIcon.png; sourceTree = SOURCE_ROOT; };
+		37C0F9072A695A56006E0A3D /* plusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusIcon.png; path = ParkingLot/Resources/images/plusIcon.png; sourceTree = SOURCE_ROOT; };
+		99ED8A762A52BC2400D43754 /* CreateParkingLotBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateParkingLotBuilder.swift; sourceTree = "<group>"; };
+		99ED8A782A52BC3D00D43754 /* CreateParkingLotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateParkingLotViewController.swift; sourceTree = "<group>"; };
+		99ED8A792A52BC3D00D43754 /* CreateParkingLotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateParkingLotViewController.xib; sourceTree = "<group>"; };
+		99ED8A7D2A52BC8D00D43754 /* CreateParkingLotViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateParkingLotViewControllerProtocol.swift; sourceTree = "<group>"; };
+		99ED8A802A52BF2900D43754 /* CheckBoxStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStackView.swift; sourceTree = "<group>"; };
+		99ED8A822A52BF4400D43754 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		99ED8A852A52F83B00D43754 /* ParkingLevelSectionStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLevelSectionStackView.swift; sourceTree = "<group>"; };
+		A3C2CE302A2F4B6C0032DBCC /* ParkingLot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingLot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C2CE332A2F4B6C0032DBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3C2CE352A2F4B6C0032DBCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3C2CE3C2A2F4B6D0032DBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3C2CE3F2A2F4B6D0032DBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3C2CE412A2F4B6D0032DBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3C2CE2D2A2F4B6C0032DBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19283F812A56C5F600F47A0C /* DateTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				19283F822A56C60700F47A0C /* DatePickerViewController.swift */,
+			);
+			path = DateTimePicker;
+			sourceTree = "<group>";
+		};
+		1955F9F12A5ED90F00804E87 /* EditParkingLot */ = {
+			isa = PBXGroup;
+			children = (
+				37718CCC2A6E5C1A006246BE /* APIService */,
+				37718CCE2A6E5C1A006246BE /* ViewModel */,
+				1955F9F22A5ED90F00804E87 /* View */,
+				1955F9F52A5ED90F00804E87 /* Builder */,
+			);
+			path = EditParkingLot;
+			sourceTree = "<group>";
+		};
+		1955F9F22A5ED90F00804E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1955F9F32A5ED90F00804E87 /* EditParkingLotViewController.swift */,
+				1955F9F42A5ED90F00804E87 /* EditParkingLotViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1955F9F52A5ED90F00804E87 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1955F9F62A5ED90F00804E87 /* EditParkingLotBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		1955F9FC2A5EE5BB00804E87 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				1955F9FD2A5EE5E400804E87 /* CreateParkingLotService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		1955F9FF2A60468700804E87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1955FA022A6046F700804E87 /* Protocol */,
+				1955FA002A60469B00804E87 /* ParkingLotListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1955FA022A6046F700804E87 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1955FA032A60470100804E87 /* ParkingLotListViewModelProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1972607B2A3B08A300015AC0 /* CustomTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3922A594EA10039632F /* Protocols */,
+				37B810FD2A497A5300766971 /* Builder */,
+				37B810FA2A4973A400766971 /* ViewModel */,
+				1972607D2A3B08A300015AC0 /* Models */,
+				1972607F2A3B08A300015AC0 /* ReusableViews */,
+			);
+			path = CustomTextFields;
+			sourceTree = "<group>";
+		};
+		1972607D2A3B08A300015AC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1972607E2A3B08A300015AC0 /* TextFieldModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1972607F2A3B08A300015AC0 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				197260812A3B08A300015AC0 /* TextFieldsStackView.swift */,
+				197260802A3B08A300015AC0 /* TextFieldView.swift */,
+				197260822A3B08A300015AC0 /* TextFieldsStackView.xib */,
+				197260832A3B08A300015AC0 /* CustomTextField.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		197F8C502A3867C9006C6434 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				197F8C512A3867EB006C6434 /* UIImage.swift */,
+				19D1CF852A41AE0B00CD6AC3 /* UITapGestureRecognizer.swift */,
+				371A253B2A4472EA00F3EAB1 /* Extension+NSRegularExpression.swift */,
+				37B810EF2A48AE3100766971 /* Extension+UIButton.swift */,
+				37B811042A4B7D7500766971 /* Extension+UIViewController.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		1995CBFF2A5537E6004FACBC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1995CC162A554FA2004FACBC /* Protocols */,
+				1995CC012A5537FC004FACBC /* CreateNewParkingLotViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1995CC062A553B54004FACBC /* ParkingLotList */ = {
+			isa = PBXGroup;
+			children = (
+				3755C1792A66C38A00593FEC /* APIService */,
+				1955F9FF2A60468700804E87 /* ViewModel */,
+				1995CC0C2A553D97004FACBC /* Builder */,
+				1995CC072A553B6D004FACBC /* View */,
+			);
+			path = ParkingLotList;
+			sourceTree = "<group>";
+		};
+		1995CC072A553B6D004FACBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1995CC082A553B84004FACBC /* ParkingLotListViewController.swift */,
+				3755C17C2A66C3A800593FEC /* ParkingLotTableViewCell.swift */,
+				3755C17D2A66C3A800593FEC /* ParkingLotTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1995CC0C2A553D97004FACBC /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1995CC0D2A553D9F004FACBC /* ParkingLotListBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		1995CC0F2A553E60004FACBC /* ParkingLot */ = {
+			isa = PBXGroup;
+			children = (
+				377CE5162A69236300DF311A /* Settings */,
+				37718CD22A6E5C89006246BE /* ParkingSpotsTab */,
+				1955F9F12A5ED90F00804E87 /* EditParkingLot */,
+				1995CC122A553F05004FACBC /* Coordinator */,
+				1995CC062A553B54004FACBC /* ParkingLotList */,
+				99ED8A722A52BB6F00D43754 /* CreateParkingLot */,
+			);
+			path = ParkingLot;
+			sourceTree = "<group>";
+		};
+		1995CC122A553F05004FACBC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1995CC132A553F16004FACBC /* Protocol */,
+				1995CC102A553EB4004FACBC /* ParkingLotCoordinator.swift */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+		1995CC132A553F16004FACBC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1995CC142A553F26004FACBC /* ParkingLotCoordinatorProtocol.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		1995CC162A554FA2004FACBC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1995CC002A5537FC004FACBC /* CreateNewParkingLotViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		19D1CF872A41B6FB00CD6AC3 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				19D1CF882A41B70600CD6AC3 /* KeyboardRelatedView.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		19D1CF8C2A41EAA600CD6AC3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3992A5CA03D0039632F /* Activityindicator */,
+				19283F812A56C5F600F47A0C /* DateTimePicker */,
+				99ED8A842A52F80F00D43754 /* CustomParkinLevelSection */,
+				99ED8A7F2A52BE3000D43754 /* CustomCheckBoxStackView */,
+				37B810F92A49739A00766971 /* CustomLabels */,
+				37B810F82A49738D00766971 /* CustomButtons */,
+				1972607B2A3B08A300015AC0 /* CustomTextFields */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		372EE5142A5D7E57002587F3 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				372EE5152A5D7E76002587F3 /* ForgotPasswordService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		3755C1792A66C38A00593FEC /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				3755C17A2A66C38A00593FEC /* ParkingLotListService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		375605E32A385A4E0016F2D1 /* CustomUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				1972607C2A3B08A300015AC0 /* Constants.swift */,
+				19D1CF8C2A41EAA600CD6AC3 /* CustomViews */,
+				375605E52A385A6F0016F2D1 /* Fonts */,
+				375605E42A385A6A0016F2D1 /* Colors */,
+			);
+			path = CustomUIElements;
+			sourceTree = "<group>";
+		};
+		375605E42A385A6A0016F2D1 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				371A253E2A44781F00F3EAB1 /* CustomSystemColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		375605E52A385A6F0016F2D1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				197F8C5E2A386FC6006C6434 /* Mulish-Black.ttf */,
+				197F8C572A386FC5006C6434 /* Mulish-BlackItalic.ttf */,
+				197F8C5C2A386FC6006C6434 /* Mulish-Bold.ttf */,
+				197F8C5D2A386FC6006C6434 /* Mulish-BoldItalic.ttf */,
+				197F8C612A386FC6006C6434 /* Mulish-ExtraBold.ttf */,
+				197F8C582A386FC5006C6434 /* Mulish-ExtraBoldItalic.ttf */,
+				197F8C642A386FC7006C6434 /* Mulish-ExtraLight.ttf */,
+				197F8C622A386FC6006C6434 /* Mulish-ExtraLightItalic.ttf */,
+				197F8C662A386FC7006C6434 /* Mulish-Italic.ttf */,
+				197F8C602A386FC6006C6434 /* Mulish-Light.ttf */,
+				197F8C5A2A386FC5006C6434 /* Mulish-LightItalic.ttf */,
+				197F8C592A386FC5006C6434 /* Mulish-Medium.ttf */,
+				197F8C5F2A386FC6006C6434 /* Mulish-MediumItalic.ttf */,
+				197F8C5B2A386FC6006C6434 /* Mulish-Regular.ttf */,
+				197F8C652A386FC7006C6434 /* Mulish-SemiBold.ttf */,
+				197F8C632A386FC7006C6434 /* Mulish-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		375605E92A3867AF0016F2D1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				37C0F9062A695A56006E0A3D /* binIcon.png */,
+				37C0F9052A695A56006E0A3D /* exitIcon.png */,
+				37C0F9072A695A56006E0A3D /* plusIcon.png */,
+				37C0F9032A695A56006E0A3D /* scanIcon.png */,
+				37C0F9022A695A56006E0A3D /* searchIcon.png */,
+				37C0F9042A695A56006E0A3D /* settingsIcon.png */,
+				377CE5142A691C2900DF311A /* stopCircle.png */,
+				375605EA2A3867AF0016F2D1 /* parkingIcon.png */,
+				197F8C6B2A3875EC006C6434 /* gif.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3758B33B2A594E660039632F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				377CE5002A67F3D300DF311A /* Keychain */,
+				3758B33C2A594E660039632F /* Network */,
+				3758B3402A594E660039632F /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3758B33C2A594E660039632F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3758B33D2A594E660039632F /* NetworkAPI.swift */,
+				3758B33E2A594E660039632F /* Protocols */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3758B33E2A594E660039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B33F2A594E660039632F /* NetworkAPIProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B3402A594E660039632F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3770A0EB2A5DBAB60066DA2A /* UserModel.swift */,
+				3770A0E92A5DBA0C0066DA2A /* RestorePasswordDTO.swift */,
+				373348332A5FE82A0032F3A2 /* ErrorHandler.swift */,
+				1995CC022A5537FC004FACBC /* ParkingLotModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3758B3432A594E660039632F /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3442A594E660039632F /* ForgotPassword */,
+				3758B34E2A594E660039632F /* CreateAccount */,
+				3758B35C2A594E660039632F /* Authentication */,
+				3758B3682A594E660039632F /* Login */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		3758B3442A594E660039632F /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				372EE5142A5D7E57002587F3 /* APIService */,
+				3758B3452A594E660039632F /* ViewModel */,
+				3758B3492A594E660039632F /* View */,
+				3758B34C2A594E660039632F /* Builder */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		3758B3452A594E660039632F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3462A594E660039632F /* ForgotPasswordViewModel.swift */,
+				3758B3472A594E660039632F /* Protocols */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3758B3472A594E660039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3482A594E660039632F /* ForgotPasswordViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B3492A594E660039632F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3758B34A2A594E660039632F /* ForgotPasswordViewController.swift */,
+				3758B34B2A594E660039632F /* ForgotPasswordViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3758B34C2A594E660039632F /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				3758B34D2A594E660039632F /* ForgotPasswordBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		3758B34E2A594E660039632F /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				3758B35B2A594E660039632F /* CreateAccountBuilder.swift */,
+				3758B34F2A594E660039632F /* ViewModel */,
+				3758B3532A594E660039632F /* View */,
+				3758B3582A594E660039632F /* APIService */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		3758B34F2A594E660039632F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3502A594E660039632F /* CreateAccountViewModel.swift */,
+				3758B3512A594E660039632F /* Protocols */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3758B3512A594E660039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3522A594E660039632F /* CreateAccountViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B3532A594E660039632F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3542A594E660039632F /* CreateAccountViewController.xib */,
+				3758B3552A594E660039632F /* CreateAccountViewController.swift */,
+				3758B3562A594E660039632F /* Protocols */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3758B3562A594E660039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3572A594E660039632F /* CreateAccountViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B3582A594E660039632F /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3592A594E660039632F /* CreateAccountService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		3758B35C2A594E660039632F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3758B35D2A594E660039632F /* Coordinator */,
+				3758B3612A594E660039632F /* View */,
+				3758B3662A594E660039632F /* Builder */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		3758B35D2A594E660039632F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3758B35E2A594E660039632F /* AuthenticationCoordinator.swift */,
+				3758B35F2A594E660039632F /* Protocols */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		3758B35F2A594E660039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3602A594E660039632F /* AuthenticationCoordinatorProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B3612A594E660039632F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3622A594E660039632F /* AuthenticationViewController.xib */,
+				3758B3632A594E660039632F /* Protocols */,
+				3758B3652A594E660039632F /* AuthenticationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3758B3632A594E660039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3642A594E660039632F /* AuthenticationViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B3662A594E660039632F /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3672A594E660039632F /* AuthenticationBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		3758B3682A594E660039632F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3692A594E660039632F /* ViewModel */,
+				3758B36D2A594E660039632F /* View */,
+				3758B3722A594E660039632F /* APIService */,
+				3758B3742A594E660039632F /* Builder */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3758B3692A594E660039632F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3758B36A2A594E660039632F /* SignInViewModel.swift */,
+				3758B36B2A594E660039632F /* Protocols */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3758B36B2A594E660039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B36C2A594E660039632F /* SignInViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B36D2A594E660039632F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3758B36E2A594E660039632F /* SigninViewController.xib */,
+				3758B36F2A594E660039632F /* Protocols */,
+				3758B3712A594E660039632F /* SigninViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3758B36F2A594E660039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3702A594E660039632F /* SigninViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B3722A594E660039632F /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3732A594E660039632F /* SignInService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		3758B3742A594E660039632F /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3752A594E660039632F /* SigninBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		3758B3922A594EA10039632F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3758B3932A594EA10039632F /* CustomTextFieldProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3758B3992A5CA03D0039632F /* Activityindicator */ = {
+			isa = PBXGroup;
+			children = (
+				3758B39A2A5CA0560039632F /* ActivityIndicatorViewController.swift */,
+			);
+			path = Activityindicator;
+			sourceTree = "<group>";
+		};
+		3763A7CE2A38542A004F43D5 /* MainCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3763A7D92A38552F004F43D5 /* Protocols */,
+				3763A7DB2A38554D004F43D5 /* MainCoordinator.swift */,
+			);
+			path = MainCoordinator;
+			sourceTree = "<group>";
+		};
+		3763A7D92A38552F004F43D5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3763A7DD2A385558004F43D5 /* MainCoordinatorProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3763A7DF2A385566004F43D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19D1CF872A41B6FB00CD6AC3 /* Keyboard */,
+				375605E92A3867AF0016F2D1 /* Images */,
+				197F8C502A3867C9006C6434 /* Extentions */,
+				375605E32A385A4E0016F2D1 /* CustomUIElements */,
+				A3C2CE412A2F4B6D0032DBCC /* Info.plist */,
+				A3C2CE3C2A2F4B6D0032DBCC /* Assets.xcassets */,
+				A3C2CE3E2A2F4B6D0032DBCC /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3763A7E02A38556F004F43D5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A3C2CE332A2F4B6C0032DBCC /* AppDelegate.swift */,
+				A3C2CE352A2F4B6C0032DBCC /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		37718CCC2A6E5C1A006246BE /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				37718CCD2A6E5C1A006246BE /* EditParkingLotService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		37718CCE2A6E5C1A006246BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				37718CCF2A6E5C1A006246BE /* EditParkingLotViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37718CD22A6E5C89006246BE /* ParkingSpotsTab */ = {
+			isa = PBXGroup;
+			children = (
+				37718CD32A6E5C89006246BE /* ViewModel */,
+				37718CD52A6E5C89006246BE /* APISercive */,
+				37718CD72A6E5C89006246BE /* View */,
+				37718CDA2A6E5C89006246BE /* Builder */,
+			);
+			path = ParkingSpotsTab;
+			sourceTree = "<group>";
+		};
+		37718CD32A6E5C89006246BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				37718CD42A6E5C89006246BE /* ParkingSpotsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37718CD52A6E5C89006246BE /* APISercive */ = {
+			isa = PBXGroup;
+			children = (
+				37718CD62A6E5C89006246BE /* ParkingSpotsService.swift */,
+			);
+			path = APISercive;
+			sourceTree = "<group>";
+		};
+		37718CD72A6E5C89006246BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37718CD82A6E5C89006246BE /* ParkingSpotsViewController.swift */,
+				37718CD92A6E5C89006246BE /* ParkingSpotCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37718CDA2A6E5C89006246BE /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				37718CDB2A6E5C89006246BE /* ParkingSpotsBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		377CE5002A67F3D300DF311A /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				377CE5012A67F3D300DF311A /* KeychainService.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		377CE5162A69236300DF311A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				377CE5182A69236300DF311A /* View */,
+				377CE51E2A69236300DF311A /* Builder */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		377CE5182A69236300DF311A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				377CE51B2A69236300DF311A /* Protocols */,
+				377CE51D2A69236300DF311A /* SettingsViewController.swift */,
+				377CE5192A69236300DF311A /* SettingsTableViewCell.xib */,
+				377CE51A2A69236300DF311A /* SettingsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		377CE51B2A69236300DF311A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				377CE51C2A69236300DF311A /* SettingsViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		377CE51E2A69236300DF311A /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				377CE51F2A69236300DF311A /* SettingsBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		37B810F82A49738D00766971 /* CustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				37B810EA2A4857A800766971 /* CustomButton.swift */,
+			);
+			path = CustomButtons;
+			sourceTree = "<group>";
+		};
+		37B810F92A49739A00766971 /* CustomLabels */ = {
+			isa = PBXGroup;
+			children = (
+				37B810E82A47196700766971 /* TermsAndConditions.swift */,
+			);
+			path = CustomLabels;
+			sourceTree = "<group>";
+		};
+		37B810FA2A4973A400766971 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				37B811012A497AF300766971 /* Protocols */,
+				37B810FB2A4977BF00766971 /* TextFieldsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37B810FD2A497A5300766971 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				37B810FF2A497A7100766971 /* TextFieldsStackViewBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		37B811012A497AF300766971 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				37B811022A497BE000766971 /* TextFieldsViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		99ED8A722A52BB6F00D43754 /* CreateParkingLot */ = {
+			isa = PBXGroup;
+			children = (
+				99ED8A742A52BBAA00D43754 /* Builder */,
+				1955F9FC2A5EE5BB00804E87 /* APIService */,
+				99ED8A732A52BBA100D43754 /* View */,
+				1995CBFF2A5537E6004FACBC /* ViewModel */,
+			);
+			path = CreateParkingLot;
+			sourceTree = "<group>";
+		};
+		99ED8A732A52BBA100D43754 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99ED8A7C2A52BC7200D43754 /* Protocols */,
+				99ED8A782A52BC3D00D43754 /* CreateParkingLotViewController.swift */,
+				99ED8A792A52BC3D00D43754 /* CreateParkingLotViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99ED8A742A52BBAA00D43754 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				99ED8A762A52BC2400D43754 /* CreateParkingLotBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		99ED8A7C2A52BC7200D43754 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				99ED8A7D2A52BC8D00D43754 /* CreateParkingLotViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		99ED8A7F2A52BE3000D43754 /* CustomCheckBoxStackView */ = {
+			isa = PBXGroup;
+			children = (
+				99ED8A802A52BF2900D43754 /* CheckBoxStackView.swift */,
+				99ED8A822A52BF4400D43754 /* CheckBoxButton.swift */,
+			);
+			path = CustomCheckBoxStackView;
+			sourceTree = "<group>";
+		};
+		99ED8A842A52F80F00D43754 /* CustomParkinLevelSection */ = {
+			isa = PBXGroup;
+			children = (
+				99ED8A852A52F83B00D43754 /* ParkingLevelSectionStackView.swift */,
+			);
+			path = CustomParkinLevelSection;
+			sourceTree = "<group>";
+		};
+		A3C2CE272A2F4B6C0032DBCC = {
+			isa = PBXGroup;
+			children = (
+				A3C2CE322A2F4B6C0032DBCC /* ParkingLot */,
+				A3C2CE312A2F4B6C0032DBCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C2CE312A2F4B6C0032DBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C2CE302A2F4B6C0032DBCC /* ParkingLot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C2CE322A2F4B6C0032DBCC /* ParkingLot */ = {
+			isa = PBXGroup;
+			children = (
+				3763A7E02A38556F004F43D5 /* SupportingFiles */,
+				3763A7CE2A38542A004F43D5 /* MainCoordinator */,
+				3758B3432A594E660039632F /* Authentification */,
+				1995CC0F2A553E60004FACBC /* ParkingLot */,
+				3758B33B2A594E660039632F /* API */,
+				3763A7DF2A385566004F43D5 /* Resources */,
+			);
+			path = ParkingLot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3C2CE2F2A2F4B6C0032DBCC /* ParkingLot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C2CE442A2F4B6D0032DBCC /* Build configuration list for PBXNativeTarget "ParkingLot" */;
+			buildPhases = (
+				A3C2CE2C2A2F4B6C0032DBCC /* Sources */,
+				A3C2CE2D2A2F4B6C0032DBCC /* Frameworks */,
+				A3C2CE2E2A2F4B6C0032DBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingLot;
+			productName = ParkingLot;
+			productReference = A3C2CE302A2F4B6C0032DBCC /* ParkingLot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3C2CE282A2F4B6C0032DBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A3C2CE2F2A2F4B6C0032DBCC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = A3C2CE2B2A2F4B6C0032DBCC /* Build configuration list for PBXProject "ParkingLot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3C2CE272A2F4B6C0032DBCC;
+			productRefGroup = A3C2CE312A2F4B6C0032DBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C2CE2F2A2F4B6C0032DBCC /* ParkingLot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3C2CE2E2A2F4B6C0032DBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C0F9082A695A56006E0A3D /* searchIcon.png in Resources */,
+				3758B3872A594E660039632F /* AuthenticationViewController.xib in Resources */,
+				197260882A3B08A300015AC0 /* TextFieldsStackView.xib in Resources */,
+				197F8C6D2A3878C5006C6434 /* Mulish-Black.ttf in Resources */,
+				37C0F90D2A695A56006E0A3D /* plusIcon.png in Resources */,
+				3758B3802A594E660039632F /* CreateAccountViewController.xib in Resources */,
+				197F8C6C2A3875EC006C6434 /* gif.gif in Resources */,
+				3758B37C2A594E660039632F /* ForgotPasswordViewController.xib in Resources */,
+				3758B38D2A594E660039632F /* SigninViewController.xib in Resources */,
+				37C0F90B2A695A56006E0A3D /* exitIcon.png in Resources */,
+				377CE5152A691C2900DF311A /* stopCircle.png in Resources */,
+				37C0F90A2A695A56006E0A3D /* settingsIcon.png in Resources */,
+				A3C2CE402A2F4B6D0032DBCC /* LaunchScreen.storyboard in Resources */,
+				37C0F90C2A695A56006E0A3D /* binIcon.png in Resources */,
+				A3C2CE3D2A2F4B6D0032DBCC /* Assets.xcassets in Resources */,
+				37C0F9092A695A56006E0A3D /* scanIcon.png in Resources */,
+				375605EB2A3867AF0016F2D1 /* parkingIcon.png in Resources */,
+				99ED8A7B2A52BC3D00D43754 /* CreateParkingLotViewController.xib in Resources */,
+				1955F9F82A5ED90F00804E87 /* EditParkingLotViewController.xib in Resources */,
+				3755C17F2A66C3A800593FEC /* ParkingLotTableViewCell.xib in Resources */,
+				377CE5202A69236300DF311A /* SettingsTableViewCell.xib in Resources */,
+				197F8C692A3870E5006C6434 /* Mulish-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3C2CE2C2A2F4B6C0032DBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197260872A3B08A300015AC0 /* TextFieldsStackView.swift in Sources */,
+				1995CC112A553EB4004FACBC /* ParkingLotCoordinator.swift in Sources */,
+				99ED8A862A52F83B00D43754 /* ParkingLevelSectionStackView.swift in Sources */,
+				37B811052A4B7D7500766971 /* Extension+UIViewController.swift in Sources */,
+				3763A7DC2A38554D004F43D5 /* MainCoordinator.swift in Sources */,
+				377CE5022A67F3D300DF311A /* KeychainService.swift in Sources */,
+				1995CC0A2A553B84004FACBC /* ParkingLotListViewController.swift in Sources */,
+				3758B38C2A594E660039632F /* SignInViewModelProtocol.swift in Sources */,
+				377CE5232A69236300DF311A /* SettingsViewController.swift in Sources */,
+				3758B3862A594E660039632F /* AuthenticationCoordinatorProtocol.swift in Sources */,
+				3758B3792A594E660039632F /* ForgotPasswordViewModel.swift in Sources */,
+				1995CC052A5537FC004FACBC /* ParkingLotModel.swift in Sources */,
+				37B811032A497BE000766971 /* TextFieldsViewModelProtocol.swift in Sources */,
+				37718CD12A6E5C1A006246BE /* EditParkingLotViewModel.swift in Sources */,
+				37B811002A497A7100766971 /* TextFieldsStackViewBuilder.swift in Sources */,
+				3758B3882A594E660039632F /* AuthenticationViewControllerProtocol.swift in Sources */,
+				3755C17E2A66C3A800593FEC /* ParkingLotTableViewCell.swift in Sources */,
+				37718CDC2A6E5C89006246BE /* ParkingSpotsViewModel.swift in Sources */,
+				197260852A3B08A300015AC0 /* TextFieldModel.swift in Sources */,
+				99ED8A832A52BF4400D43754 /* CheckBoxButton.swift in Sources */,
+				373348342A5FE82A0032F3A2 /* ErrorHandler.swift in Sources */,
+				3758B37B2A594E660039632F /* ForgotPasswordViewController.swift in Sources */,
+				3758B3762A594E660039632F /* NetworkAPI.swift in Sources */,
+				1955FA042A60470100804E87 /* ParkingLotListViewModelProtocol.swift in Sources */,
+				3758B37F2A594E660039632F /* CreateAccountViewModelProtocol.swift in Sources */,
+				3758B3812A594E660039632F /* CreateAccountViewController.swift in Sources */,
+				37718CDD2A6E5C89006246BE /* ParkingSpotsService.swift in Sources */,
+				1995CC152A553F26004FACBC /* ParkingLotCoordinatorProtocol.swift in Sources */,
+				371A253F2A44781F00F3EAB1 /* CustomSystemColors.swift in Sources */,
+				A3C2CE342A2F4B6C0032DBCC /* AppDelegate.swift in Sources */,
+				3758B38E2A594E660039632F /* SigninViewControllerProtocol.swift in Sources */,
+				3758B3912A594E660039632F /* SigninBuilder.swift in Sources */,
+				1955F9FE2A5EE5E400804E87 /* CreateParkingLotService.swift in Sources */,
+				1995CC032A5537FC004FACBC /* CreateNewParkingLotViewModelProtocol.swift in Sources */,
+				377CE5212A69236300DF311A /* SettingsTableViewCell.swift in Sources */,
+				99ED8A772A52BC2400D43754 /* CreateParkingLotBuilder.swift in Sources */,
+				3758B37A2A594E660039632F /* ForgotPasswordViewModelProtocol.swift in Sources */,
+				19283F832A56C60700F47A0C /* DatePickerViewController.swift in Sources */,
+				99ED8A7A2A52BC3D00D43754 /* CreateParkingLotViewController.swift in Sources */,
+				99ED8A7E2A52BC8D00D43754 /* CreateParkingLotViewControllerProtocol.swift in Sources */,
+				37718CD02A6E5C1A006246BE /* EditParkingLotService.swift in Sources */,
+				3758B38F2A594E660039632F /* SigninViewController.swift in Sources */,
+				A3C2CE362A2F4B6C0032DBCC /* SceneDelegate.swift in Sources */,
+				37B810EB2A4857A800766971 /* CustomButton.swift in Sources */,
+				377CE5222A69236300DF311A /* SettingsViewControllerProtocol.swift in Sources */,
+				197260862A3B08A300015AC0 /* TextFieldView.swift in Sources */,
+				37B810FC2A4977BF00766971 /* TextFieldsViewModel.swift in Sources */,
+				3758B3852A594E660039632F /* AuthenticationCoordinator.swift in Sources */,
+				1955F9F92A5ED90F00804E87 /* EditParkingLotBuilder.swift in Sources */,
+				3758B3842A594E660039632F /* CreateAccountBuilder.swift in Sources */,
+				197F8C522A3867EB006C6434 /* UIImage.swift in Sources */,
+				37B810F02A48AE3100766971 /* Extension+UIButton.swift in Sources */,
+				371A253C2A4472EA00F3EAB1 /* Extension+NSRegularExpression.swift in Sources */,
+				3758B3892A594E660039632F /* AuthenticationViewController.swift in Sources */,
+				37718CDE2A6E5C89006246BE /* ParkingSpotsViewController.swift in Sources */,
+				1955F9F72A5ED90F00804E87 /* EditParkingLotViewController.swift in Sources */,
+				37B810E92A47196700766971 /* TermsAndConditions.swift in Sources */,
+				99ED8A812A52BF2900D43754 /* CheckBoxStackView.swift in Sources */,
+				1995CC042A5537FC004FACBC /* CreateNewParkingLotViewModel.swift in Sources */,
+				3758B3772A594E660039632F /* NetworkAPIProtocol.swift in Sources */,
+				3758B39B2A5CA0560039632F /* ActivityIndicatorViewController.swift in Sources */,
+				37718CDF2A6E5C89006246BE /* ParkingSpotCollectionViewCell.swift in Sources */,
+				3770A0EC2A5DBAB60066DA2A /* UserModel.swift in Sources */,
+				3758B37E2A594E660039632F /* CreateAccountViewModel.swift in Sources */,
+				3758B3942A594EA10039632F /* CustomTextFieldProtocol.swift in Sources */,
+				3758B3902A594E660039632F /* SignInService.swift in Sources */,
+				19D1CF892A41B70600CD6AC3 /* KeyboardRelatedView.swift in Sources */,
+				3758B37D2A594E660039632F /* ForgotPasswordBuilder.swift in Sources */,
+				19D1CF862A41AE0B00CD6AC3 /* UITapGestureRecognizer.swift in Sources */,
+				372EE5162A5D7E76002587F3 /* ForgotPasswordService.swift in Sources */,
+				197260842A3B08A300015AC0 /* Constants.swift in Sources */,
+				3758B38A2A594E660039632F /* AuthenticationBuilder.swift in Sources */,
+				3758B3832A594E660039632F /* CreateAccountService.swift in Sources */,
+				197260892A3B08A300015AC0 /* CustomTextField.swift in Sources */,
+				377CE5242A69236300DF311A /* SettingsBuilder.swift in Sources */,
+				3758B38B2A594E660039632F /* SignInViewModel.swift in Sources */,
+				3755C17B2A66C38A00593FEC /* ParkingLotListService.swift in Sources */,
+				1995CC0E2A553D9F004FACBC /* ParkingLotListBuilder.swift in Sources */,
+				3758B3822A594E660039632F /* CreateAccountViewControllerProtocol.swift in Sources */,
+				1955FA012A60469B00804E87 /* ParkingLotListViewModel.swift in Sources */,
+				3763A7DE2A385558004F43D5 /* MainCoordinatorProtocol.swift in Sources */,
+				37718CE02A6E5C89006246BE /* ParkingSpotsBuilder.swift in Sources */,
+				3770A0EA2A5DBA0C0066DA2A /* RestorePasswordDTO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3C2CE3E2A2F4B6D0032DBCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3C2CE3F2A2F4B6D0032DBCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3C2CE422A2F4B6D0032DBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3C2CE432A2F4B6D0032DBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3C2CE452A2F4B6D0032DBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB8LQ6BXM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkingLot/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xc.com.parkinglot.ios.internship;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3C2CE462A2F4B6D0032DBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB8LQ6BXM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkingLot/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xc.com.parkinglot.ios.internship;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3C2CE2B2A2F4B6C0032DBCC /* Build configuration list for PBXProject "ParkingLot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C2CE422A2F4B6D0032DBCC /* Debug */,
+				A3C2CE432A2F4B6D0032DBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C2CE442A2F4B6D0032DBCC /* Build configuration list for PBXNativeTarget "ParkingLot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C2CE452A2F4B6D0032DBCC /* Debug */,
+				A3C2CE462A2F4B6D0032DBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3C2CE282A2F4B6C0032DBCC /* Project object */;
+}
